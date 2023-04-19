@@ -25,12 +25,22 @@ public class HomeChina extends AppCompatActivity {
     public void openChinaMap(View view) {
         String parameter = "+39.9042,116.4074?z=10";
         Uri mapURI = Uri.parse("geo:" + parameter);
-        Intent mapsIntent = new Intent(Intent.ACTION_VIEW, mapURI); //mapsIntent.setData(mapURI);
+        Intent mapsIntent = new Intent(Intent.ACTION_VIEW, mapURI);
         if (mapsIntent.resolveActivity(getPackageManager()) != null) {
             startActivity(mapsIntent);
         }
         Toast.makeText(this, "Routing to china", Toast.LENGTH_SHORT).show();
         startActivityForResult(mapsIntent, MAP_REQUEST);
+    }
+
+    public void openChinaCusines(View view) {
+        Intent intent = new Intent(HomeChina.this, ChinaCuisines.class);
+        startActivity(intent);
+    }
+
+    public void openChinaGallery(View view) {
+        Intent intent = new Intent(HomeChina.this, ChinaGallary.class);
+        startActivity(intent);
     }
 
 }
