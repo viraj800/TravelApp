@@ -81,10 +81,10 @@
                         android:text="Accomodations" />
 
                     <Button
-                        android:onClick="openChinaCusines"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="10dp"
+                        android:onClick="openChinaCusines"
                         android:text="Cuisines" />
                 </LinearLayout>
 
@@ -97,8 +97,8 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:onClick="openChinaGallery"
                         android:layout_marginHorizontal="10dp"
+                        android:onClick="openChinaGallery"
                         android:text="Gallary" />
 
                     <Button

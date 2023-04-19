@@ -47,4 +47,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, HomeChina.class);
         startActivity(intent);
     }
+
+    public void openContactUs(View view) {
+        Intent intent = new Intent(MainActivity.this, ContactUs.class);
+        startActivity(intent);
+    }
 }

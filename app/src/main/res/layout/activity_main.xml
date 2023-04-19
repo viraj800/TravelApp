@@ -224,6 +224,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:text="Thailand, country located in the centre of mainland Southeast Asia. Located wholly within the tropics, Thailand encompasses diverse ecosystems, including the hilly forested areas of the northern frontier," />
 
+
                 </LinearLayout>
 
             </LinearLayout>
@@ -265,6 +266,21 @@
                         android:layout_marginHorizontal="5dp"
                         android:text="Thailand, country located in the centre of mainland Southeast Asia. Located wholly within the tropics, Thailand encompasses diverse ecosystems, including the hilly forested areas of the northern frontier," />
                 </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:onClick="openContactUs"
+                    android:text="Contact us" />
             </LinearLayout>
 
             <TextView
